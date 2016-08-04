@@ -1,0 +1,24 @@
+{
+  "name": "hil",
+  "version": "0.0.0",
+  "description": "JS implementation of HIL (HashiCorp Interpolation Language)",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "url": "git://github.com/cstruct/node-hil.git"
+  },
+  "author": "Albin Mattsson <albin@mattsson.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cstruct/node-hil/issues"
+  },
+  "homepage": "https://github.com/cstruct/node-hil#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jison": "^0.4.17",
+    "mocha": "^2.5.3",
+    "standard": "~7.1.2"
+  }
+}
